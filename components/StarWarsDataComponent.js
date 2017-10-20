@@ -26,7 +26,7 @@ const StarWarsDataComponent = ({state, setPage, prevUrl, nextUrl}) => {
             placeholder="Wpisz numer strony"
             onChangeText={page => {setPage(parseInt(page))}}
         />
-            <View style={{flexDirection: 'row', justifyContent: 'space-between'}}>
+            <View style={{flexDirection: 'row', justifyContent: 'space-around'}}>
                 <Button
                     onPress={prevUrl}
                     title="Previous"
